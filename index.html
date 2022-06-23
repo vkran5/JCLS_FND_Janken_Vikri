@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JCLS_FND_Janken_Vikri</title>
+</head>
+<body>
+    <center>
+        <h2>Janken</h2>
+        <div>
+            <img src="/batu.png" style="width: 100px;">
+            <img src="/gunting.png" style="width: 100px;">
+            <img src="/kertas.png" style="width: 100px;"><br>
+            <button onclick="batuHandler()">Batu</button>
+            <button onclick="guntingHandler()">Guntinig</button>
+            <button onclick="kertasHandler()">kertas</button>
+        </div>
+        <br>
+        <div >
+            <h3>Player</h3>
+            <p id="player"></p>
+        </div>
+        
+        <img src="/versus.png" style="width: 100px;">
+        
+        <div id="computer">
+            <h3>Coputer</h3>
+            <p id="computer"></p> 
+        </div>
+
+        <div id="result">
+            <h3 id="status"></h3>
+            <p id="win"></p>
+            <p id="lose"></p>
+            <p id="draw"></p>
+            <p id="score"></p>
+
+        </div>
+    </center>
+</body>
+<script src="/index.js"></script>
+</html>
